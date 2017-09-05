@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61371641F0E5542002AB436 /* NTESPBXObjNativeTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = E61371631F0E5542002AB436 /* NTESPBXObjNativeTarget.m */; };
+		E62F2C681E8124450003FE3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E62F2C671E8124450003FE3E /* AppDelegate.m */; };
+		E62F2C6B1E8124450003FE3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E62F2C6A1E8124450003FE3E /* main.m */; };
+		E62F2C6E1E8124450003FE3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E62F2C6D1E8124450003FE3E /* ViewController.m */; };
+		E62F2C701E8124450003FE3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62F2C6F1E8124450003FE3E /* Assets.xcassets */; };
+		E62F2C731E8124450003FE3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62F2C711E8124450003FE3E /* Main.storyboard */; };
+		E63674191E83A27F008F13A0 /* NTESXCProjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E63674181E83A27F008F13A0 /* NTESXCProjectParser.m */; };
+		E65EF7511E9486ED00187FAE /* NTESPBXObjFileElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E65EF7501E9486ED00187FAE /* NTESPBXObjFileElement.m */; };
+		E67720761F5E73A600AB0FD0 /* NTESCSAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E67720751F5E73A600AB0FD0 /* NTESCSAppInfo.m */; };
+		E6C33EDF1E82632E00765CCB /* NTESPBXObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C33EDE1E82632E00765CCB /* NTESPBXObjects.m */; };
+		E6C33EE21E82634100765CCB /* NTESPBXRootObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C33EE11E82634100765CCB /* NTESPBXRootObjects.m */; };
+		E6D569D71EA9B345002FBCA9 /* NTESPBXObjBuildConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D569D61EA9B345002FBCA9 /* NTESPBXObjBuildConfiguration.m */; };
+		E6E5588E1E8FA20800473E52 /* NTESPBXObjectVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5588D1E8FA20800473E52 /* NTESPBXObjectVersion.m */; };
+		E6E558911E8FA21D00473E52 /* NTESPBXClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E558901E8FA21D00473E52 /* NTESPBXClasses.m */; };
+		E6E558941E8FA23500473E52 /* NTESPBXArchiveVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E558931E8FA23500473E52 /* NTESPBXArchiveVersion.m */; };
+		E6E5589D1E8FA36800473E52 /* NTESPBXObjBuildFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E558961E8FA36800473E52 /* NTESPBXObjBuildFile.m */; };
+		E6E5589E1E8FA36800473E52 /* NTESPBXObjBuildPhase.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E558981E8FA36800473E52 /* NTESPBXObjBuildPhase.m */; };
+		E6E5589F1E8FA36800473E52 /* NTESPBXObjGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5589A1E8FA36800473E52 /* NTESPBXObjGroup.m */; };
+		E6E558A01E8FA36800473E52 /* NTESPBXObjProject.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5589C1E8FA36800473E52 /* NTESPBXObjProject.m */; };
+		E6E558A31E8FA7BF00473E52 /* NTESPBXObjBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E558A21E8FA7BF00473E52 /* NTESPBXObjBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E61371611F0E5542002AB436 /* NTESPBXDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXDefine.h; sourceTree = "<group>"; };
+		E61371621F0E5542002AB436 /* NTESPBXObjNativeTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjNativeTarget.h; sourceTree = "<group>"; };
+		E61371631F0E5542002AB436 /* NTESPBXObjNativeTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjNativeTarget.m; sourceTree = "<group>"; };
+		E62F2C631E8124450003FE3E /* pbxprojParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pbxprojParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62F2C661E8124450003FE3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E62F2C671E8124450003FE3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E62F2C6A1E8124450003FE3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E62F2C6C1E8124450003FE3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E62F2C6D1E8124450003FE3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E62F2C6F1E8124450003FE3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E62F2C721E8124450003FE3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E62F2C741E8124450003FE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63674171E83A27F008F13A0 /* NTESXCProjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESXCProjectParser.h; sourceTree = "<group>"; };
+		E63674181E83A27F008F13A0 /* NTESXCProjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESXCProjectParser.m; sourceTree = "<group>"; };
+		E65EF74F1E9486ED00187FAE /* NTESPBXObjFileElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjFileElement.h; sourceTree = "<group>"; };
+		E65EF7501E9486ED00187FAE /* NTESPBXObjFileElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjFileElement.m; sourceTree = "<group>"; };
+		E67720741F5E73A600AB0FD0 /* NTESCSAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESCSAppInfo.h; sourceTree = "<group>"; };
+		E67720751F5E73A600AB0FD0 /* NTESCSAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESCSAppInfo.m; sourceTree = "<group>"; };
+		E67720771F5E73ED00AB0FD0 /* NTESCSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESCSDefine.h; sourceTree = "<group>"; };
+		E6C33EDD1E82632E00765CCB /* NTESPBXObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjects.h; sourceTree = "<group>"; };
+		E6C33EDE1E82632E00765CCB /* NTESPBXObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjects.m; sourceTree = "<group>"; };
+		E6C33EE01E82634100765CCB /* NTESPBXRootObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXRootObjects.h; sourceTree = "<group>"; };
+		E6C33EE11E82634100765CCB /* NTESPBXRootObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXRootObjects.m; sourceTree = "<group>"; };
+		E6C33EEA1E827E3500765CCB /* NTESXCDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESXCDefine.h; sourceTree = "<group>"; };
+		E6D569D51EA9B345002FBCA9 /* NTESPBXObjBuildConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjBuildConfiguration.h; sourceTree = "<group>"; };
+		E6D569D61EA9B345002FBCA9 /* NTESPBXObjBuildConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjBuildConfiguration.m; sourceTree = "<group>"; };
+		E6E5588C1E8FA20800473E52 /* NTESPBXObjectVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjectVersion.h; sourceTree = "<group>"; };
+		E6E5588D1E8FA20800473E52 /* NTESPBXObjectVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjectVersion.m; sourceTree = "<group>"; };
+		E6E5588F1E8FA21D00473E52 /* NTESPBXClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXClasses.h; sourceTree = "<group>"; };
+		E6E558901E8FA21D00473E52 /* NTESPBXClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXClasses.m; sourceTree = "<group>"; };
+		E6E558921E8FA23500473E52 /* NTESPBXArchiveVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXArchiveVersion.h; sourceTree = "<group>"; };
+		E6E558931E8FA23500473E52 /* NTESPBXArchiveVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXArchiveVersion.m; sourceTree = "<group>"; };
+		E6E558951E8FA36800473E52 /* NTESPBXObjBuildFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjBuildFile.h; sourceTree = "<group>"; };
+		E6E558961E8FA36800473E52 /* NTESPBXObjBuildFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjBuildFile.m; sourceTree = "<group>"; };
+		E6E558971E8FA36800473E52 /* NTESPBXObjBuildPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjBuildPhase.h; sourceTree = "<group>"; };
+		E6E558981E8FA36800473E52 /* NTESPBXObjBuildPhase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjBuildPhase.m; sourceTree = "<group>"; };
+		E6E558991E8FA36800473E52 /* NTESPBXObjGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjGroup.h; sourceTree = "<group>"; };
+		E6E5589A1E8FA36800473E52 /* NTESPBXObjGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjGroup.m; sourceTree = "<group>"; };
+		E6E5589B1E8FA36800473E52 /* NTESPBXObjProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjProject.h; sourceTree = "<group>"; };
+		E6E5589C1E8FA36800473E52 /* NTESPBXObjProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjProject.m; sourceTree = "<group>"; };
+		E6E558A11E8FA7BF00473E52 /* NTESPBXObjBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESPBXObjBase.h; sourceTree = "<group>"; };
+		E6E558A21E8FA7BF00473E52 /* NTESPBXObjBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESPBXObjBase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E62F2C601E8124450003FE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E62F2C5A1E8124450003FE3E = {
+			isa = PBXGroup;
+			children = (
+				E62F2C651E8124450003FE3E /* pbxprojParser */,
+				E62F2C641E8124450003FE3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E62F2C641E8124450003FE3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E62F2C631E8124450003FE3E /* pbxprojParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E62F2C651E8124450003FE3E /* pbxprojParser */ = {
+			isa = PBXGroup;
+			children = (
+				E6C33ED31E8261D100765CCB /* Parser */,
+				E62F2C661E8124450003FE3E /* AppDelegate.h */,
+				E62F2C671E8124450003FE3E /* AppDelegate.m */,
+				E62F2C6C1E8124450003FE3E /* ViewController.h */,
+				E62F2C6D1E8124450003FE3E /* ViewController.m */,
+				E67720741F5E73A600AB0FD0 /* NTESCSAppInfo.h */,
+				E67720751F5E73A600AB0FD0 /* NTESCSAppInfo.m */,
+				E67720771F5E73ED00AB0FD0 /* NTESCSDefine.h */,
+				E62F2C6F1E8124450003FE3E /* Assets.xcassets */,
+				E62F2C711E8124450003FE3E /* Main.storyboard */,
+				E62F2C741E8124450003FE3E /* Info.plist */,
+				E62F2C691E8124450003FE3E /* Supporting Files */,
+			);
+			path = pbxprojParser;
+			sourceTree = "<group>";
+		};
+		E62F2C691E8124450003FE3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E62F2C6A1E8124450003FE3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6C33ED31E8261D100765CCB /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				E63674171E83A27F008F13A0 /* NTESXCProjectParser.h */,
+				E63674181E83A27F008F13A0 /* NTESXCProjectParser.m */,
+				E6C33EEA1E827E3500765CCB /* NTESXCDefine.h */,
+				E6C33EE31E8263CD00765CCB /* Objects */,
+				E6E5588B1E8F9CCA00473E52 /* Model */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		E6C33EE31E8263CD00765CCB /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E6E558951E8FA36800473E52 /* NTESPBXObjBuildFile.h */,
+				E6E558961E8FA36800473E52 /* NTESPBXObjBuildFile.m */,
+				E6E558971E8FA36800473E52 /* NTESPBXObjBuildPhase.h */,
+				E6E558981E8FA36800473E52 /* NTESPBXObjBuildPhase.m */,
+				E6E558991E8FA36800473E52 /* NTESPBXObjGroup.h */,
+				E6E5589A1E8FA36800473E52 /* NTESPBXObjGroup.m */,
+				E6E5589B1E8FA36800473E52 /* NTESPBXObjProject.h */,
+				E6E5589C1E8FA36800473E52 /* NTESPBXObjProject.m */,
+				E6E558A11E8FA7BF00473E52 /* NTESPBXObjBase.h */,
+				E6E558A21E8FA7BF00473E52 /* NTESPBXObjBase.m */,
+				E65EF74F1E9486ED00187FAE /* NTESPBXObjFileElement.h */,
+				E65EF7501E9486ED00187FAE /* NTESPBXObjFileElement.m */,
+				E6D569D51EA9B345002FBCA9 /* NTESPBXObjBuildConfiguration.h */,
+				E6D569D61EA9B345002FBCA9 /* NTESPBXObjBuildConfiguration.m */,
+				E61371621F0E5542002AB436 /* NTESPBXObjNativeTarget.h */,
+				E61371631F0E5542002AB436 /* NTESPBXObjNativeTarget.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		E6E5588B1E8F9CCA00473E52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E61371611F0E5542002AB436 /* NTESPBXDefine.h */,
+				E6C33EDE1E82632E00765CCB /* NTESPBXObjects.m */,
+				E6C33EDD1E82632E00765CCB /* NTESPBXObjects.h */,
+				E6C33EE01E82634100765CCB /* NTESPBXRootObjects.h */,
+				E6C33EE11E82634100765CCB /* NTESPBXRootObjects.m */,
+				E6E5588C1E8FA20800473E52 /* NTESPBXObjectVersion.h */,
+				E6E5588D1E8FA20800473E52 /* NTESPBXObjectVersion.m */,
+				E6E5588F1E8FA21D00473E52 /* NTESPBXClasses.h */,
+				E6E558901E8FA21D00473E52 /* NTESPBXClasses.m */,
+				E6E558921E8FA23500473E52 /* NTESPBXArchiveVersion.h */,
+				E6E558931E8FA23500473E52 /* NTESPBXArchiveVersion.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E62F2C621E8124450003FE3E /* pbxprojParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E62F2C771E8124450003FE3E /* Build configuration list for PBXNativeTarget "pbxprojParser" */;
+			buildPhases = (
+				E62F2C5F1E8124450003FE3E /* Sources */,
+				E62F2C601E8124450003FE3E /* Frameworks */,
+				E62F2C611E8124450003FE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pbxprojParser;
+			productName = pbxprojParser;
+			productReference = E62F2C631E8124450003FE3E /* pbxprojParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E62F2C5B1E8124450003FE3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NetEase;
+				TargetAttributes = {
+					E62F2C621E8124450003FE3E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = QR44GS97KP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E62F2C5E1E8124450003FE3E /* Build configuration list for PBXProject "pbxprojParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E62F2C5A1E8124450003FE3E;
+			productRefGroup = E62F2C641E8124450003FE3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E62F2C621E8124450003FE3E /* pbxprojParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E62F2C611E8124450003FE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62F2C701E8124450003FE3E /* Assets.xcassets in Resources */,
+				E62F2C731E8124450003FE3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E62F2C5F1E8124450003FE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D569D71EA9B345002FBCA9 /* NTESPBXObjBuildConfiguration.m in Sources */,
+				E62F2C6E1E8124450003FE3E /* ViewController.m in Sources */,
+				E6E5588E1E8FA20800473E52 /* NTESPBXObjectVersion.m in Sources */,
+				E6E558941E8FA23500473E52 /* NTESPBXArchiveVersion.m in Sources */,
+				E6C33EE21E82634100765CCB /* NTESPBXRootObjects.m in Sources */,
+				E6E558A01E8FA36800473E52 /* NTESPBXObjProject.m in Sources */,
+				E62F2C6B1E8124450003FE3E /* main.m in Sources */,
+				E6C33EDF1E82632E00765CCB /* NTESPBXObjects.m in Sources */,
+				E63674191E83A27F008F13A0 /* NTESXCProjectParser.m in Sources */,
+				E6E5589E1E8FA36800473E52 /* NTESPBXObjBuildPhase.m in Sources */,
+				E6E5589F1E8FA36800473E52 /* NTESPBXObjGroup.m in Sources */,
+				E65EF7511E9486ED00187FAE /* NTESPBXObjFileElement.m in Sources */,
+				E6E5589D1E8FA36800473E52 /* NTESPBXObjBuildFile.m in Sources */,
+				E61371641F0E5542002AB436 /* NTESPBXObjNativeTarget.m in Sources */,
+				E6E558A31E8FA7BF00473E52 /* NTESPBXObjBase.m in Sources */,
+				E62F2C681E8124450003FE3E /* AppDelegate.m in Sources */,
+				E6E558911E8FA21D00473E52 /* NTESPBXClasses.m in Sources */,
+				E67720761F5E73A600AB0FD0 /* NTESCSAppInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E62F2C711E8124450003FE3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E62F2C721E8124450003FE3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E62F2C751E8124450003FE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E62F2C761E8124450003FE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E62F2C781E8124450003FE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QR44GS97KP;
+				INFOPLIST_FILE = pbxprojParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.pbxprojParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E62F2C791E8124450003FE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QR44GS97KP;
+				INFOPLIST_FILE = pbxprojParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.pbxprojParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E62F2C5E1E8124450003FE3E /* Build configuration list for PBXProject "pbxprojParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62F2C751E8124450003FE3E /* Debug */,
+				E62F2C761E8124450003FE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E62F2C771E8124450003FE3E /* Build configuration list for PBXNativeTarget "pbxprojParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62F2C781E8124450003FE3E /* Debug */,
+				E62F2C791E8124450003FE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E62F2C5B1E8124450003FE3E /* Project object */;
+}

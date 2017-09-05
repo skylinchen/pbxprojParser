@@ -1,0 +1,3 @@
+# pbxprojParser
+
+通过plist文件和项目文件获取项目的一些配置信息
